@@ -185,7 +185,8 @@ printMaxNum(1, 5);
 //関数名：getSquared
 //引数1：1つの数値
 //処理内容：引数で受け取った数値の2乗を計算し返す
-
+//戻り値（返り値）return 値;の形で、実行した側に戻される値
+//引数と逆方向に値を送る（返す）
 function getSquared(num) {
     return num * num
 }
